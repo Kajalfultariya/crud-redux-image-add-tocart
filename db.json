@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "kajal Patel",
+      "email": "kajlfultariya@gmail.com",
+      "pwd": "kajal1109",
+      "mno": 9687606592,
+      "qur": "MCA",
+      "addr": "Mundra"
+    },
+    {
+      "name": "Devika Patel",
+      "email": "devu@gmail.com",
+      "pwd": "devu3545",
+      "mno": "98745621",
+      "qur": "BBA",
+      "addr": "Morbi",
+      "id": 6
+    },
+    {
+      "name": "Jay",
+      "email": "jay@gmail.com",
+      "pwd": "jay3456",
+      "mno": "75395124",
+      "qur": "ASD",
+      "addr": "ASA",
+      "id": 7
+    },
+    {
+      "name": "Riya",
+      "email": "riya@gmail.com",
+      "pwd": "riya11122020",
+      "mno": "78925461",
+      "qur": "LLb",
+      "addr": "Morbi",
+      "id": 8
+    },
+    {
+      "name": "Angel",
+      "email": "angel@gmail.com",
+      "pwd": "kjuhyg",
+      "mno": "54879621",
+      "qur": "MMM",
+      "addr": "LLL",
+      "id": 10
+    }
+  ]
+}
