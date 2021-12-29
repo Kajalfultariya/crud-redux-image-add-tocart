@@ -1,4 +1,75 @@
 {
+  "checkData": [
+    {
+      "id": 1,
+      "name": "Kajal",
+      "choice": "Gujrati",
+      "kp": true,
+      "pm": false,
+      "bm": true
+    },
+    {
+      "name": "Riya",
+      "kp": true,
+      "pm": false,
+      "bm": false,
+      "choice": "Panjabi",
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "name": "Devu",
+      "kp": false,
+      "pm": true,
+      "bm": true,
+      "choice": "Chinese",
+      "id": 5
+    },
+    {
+      "name": "Jay",
+      "kp": true,
+      "pm": false,
+      "bm": true,
+      "choice": "Panjabi",
+      "id": 6
+    },
+    {
+      "name": "Angel",
+      "kp": true,
+      "pm": false,
+      "bm": true,
+      "choice": "Panjabi",
+      "id": 7
+    },
+    {
+      "name": "KKK",
+      "kp": true,
+      "pm": true,
+      "bm": false,
+      "choice": "Chinese",
+      "id": 11
+    }
+  ],
+  "txtData": [
+    {
+      "contentHTML": "vvnvnb",
+      "id": 1
+    },
+    {
+      "contentHTML": "<h1><span style=\"font-family: Impact;\"><em>Hello Everybody</em></span></h1>\n",
+      "id": 2
+    }
+  ],
+  "image": [
+    {
+      "status": "ok",
+      "statusCode": 200,
+      "data": "Added Successfully",
+      "submitData": []
+    }
+  ],
   "users": [
     {
       "id": 1,
