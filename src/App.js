@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import UpdateUser from "./pages/UpdateUser";
@@ -12,6 +11,11 @@ import Login from "./pages/Login";
 import Welcome from './pages/Welcome';
 import Logout from "./pages/Logout";
 import NotFound from './pages/NotFound';
+import ChkBox from "./pages/ChkBox";
+import UImage from "./pages/UImage";
+import ImgUp from './pages/ImgUp';
+import WysiwygRteDraft from './pages/WysiwygRteDraft';
+import EditorShow from './pages/EditorShow';
   
 function App() {
   return (
@@ -22,13 +26,18 @@ function App() {
         <Switch>
           <Route exact path="/" component={Login} />
           <Route exact path="/Login" component={Login} />
+          <Route exact path="/ImgUp" component={ImgUp} />
           <Route exact path="/Welcome" component={Welcome} />
           <Route exact path="/Logout" component={Logout} />
-          <Route exact path="/Home" component={Home} />
+          <Route exact path="/Home" component={Home}   />
           <Route exact path="/UpdateUser" component={UpdateUser} />          
           <Route exact path="/UpdateUser/:id" component={UpdateUser} />
-          <Route exact path="/about" component={About} />
+          <Route exact path="/About" component={About} />
+          <Route exact path="/EditorShow" component={EditorShow} />
+          <Route exact path="/ChkBox" component={ChkBox} />
+          <Route exact path="/UImage" component={UImage} />
           <Route exact path="/UserInfo/:id" component={UserInfo} />
+          <Route exact path="/WysiwygRteDraft" component={WysiwygRteDraft} />
           <Route component={NotFound}/>
         </Switch>
       </div>
