@@ -1,0 +1,23 @@
+.error-box {
+    display: flex;
+    background: rgb(214, 130, 130);
+    height: 100px;
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .error-icon {
+    display: flex;
+    color: red;
+    font-size: 50px;
+    margin: 20px;
+  }
+  
+  .error-message {
+    display: flex;
+    color: red;
+  }
+  

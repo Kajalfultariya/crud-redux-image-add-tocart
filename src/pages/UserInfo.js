@@ -35,7 +35,7 @@ const UserInfo = () => {
                 <p className="col-md-6 fw-bold">Address : </p>
                 <p className="col-md-6">{singleUser.addr}</p>
            </div>
-           <MDBBtn onClick={()=> history.push("/")} color="danger" > Go Back</MDBBtn>
+           <MDBBtn onClick={()=> history.push("/Home")} color="danger" > Go Back</MDBBtn>
        </div>
     )
 }

@@ -1,11 +1,124 @@
 {
+  "checkData": [
+    {
+      "id": 1,
+      "name": "Kajal",
+      "choice": "Gujrati",
+      "kp": true,
+      "pm": false,
+      "bm": true
+    },
+    {
+      "name": "Riya",
+      "kp": true,
+      "pm": false,
+      "bm": false,
+      "choice": "Panjabi",
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "name": "Devu",
+      "kp": false,
+      "pm": true,
+      "bm": true,
+      "choice": "Chinese",
+      "id": 5
+    },
+    {
+      "name": "Jay",
+      "kp": true,
+      "pm": false,
+      "bm": true,
+      "choice": "Panjabi",
+      "id": 6
+    },
+    {
+      "name": "Angel",
+      "kp": true,
+      "pm": false,
+      "bm": true,
+      "choice": "Panjabi",
+      "id": 7
+    },
+    {
+      "name": "KKK",
+      "kp": true,
+      "pm": true,
+      "bm": false,
+      "choice": "Chinese",
+      "id": 11
+    }
+  ],
+  "ResultData":[
+    {
+      "name":"Devika",
+      "detail":{
+        "std" :"First",
+      "English":22,
+      "Maths":22,
+      "Science":22,
+      "Hindi":22,
+      "SST":22,
+      "Gujrati":22,
+      "Computer":22},
+      "id":1
+    },
+    {
+      "name":"Riya",
+      "detail":{"English":25,
+        "Maths":25,
+        "Science":25,
+        "Hindi":25,
+        "SST":25,
+        "Gujrati":25,
+        "Computer":25},
+      "id":2
+    }
+  ],
+  "txtData": [
+    {
+      "contentHTML": "vvnvnb",
+      "id": 1
+    },
+    {
+      "contentHTML": "<h1><span style=\"font-family: Impact;\"><em>Hello Everybody</em></span></h1>\n",
+      "id": 2
+    },
+    {
+      "contentHTML": "<p></p>\n<img src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgVFhUYGBgYHBgYGRkcGBwYGRkYGBgZGhoYGRocIy4lHB4rIRgYJjgnKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHzQrJCs0NDQ1NDQ0MTQ0NDQ0NDQ0NDQ0NDQ0NDQxNDQ0NDQ0NDQ0NDQ0NDQ0NDQxNDQ0NDQ0NP/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAABAgUGB//EADgQAAEDAgQEAwcDAwQDAAAAAAEAAhEDIQQSMUEiUWFxBYGREzKhscHR8AZC4RRS8RVigpIjcrL/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQIDBAX/xAAnEQACAgICAQMEAwEAAAAAAAAAAQIRAyESMUEEIlETMmFxkaHRUv/aAAwDAQACEQMRAD8A+TAq1QVrcg00qnFQKigICooFEBEdjbICPTPCgQNhui1yhN1RK5QAmlNYeN0oEzh2kowg1QhArrb23WaiqSSkFsiFhjkQ6IwKPN1qmqeLrdIKwBbojlR1RHhQwbplVXFlbNFVXRQBVpTbHWSjdU002UshGHBQKitSoJJCXeLo4cgPN1KIZkIzAgrbHKQbqFaa+0LDysFAEebIK2sICLQWVpqAyVlW5UgNBaWQrQFqlFSAtWqUQERGaIZWmaIChqt1Qss1RcQNEAEJvDFKtTOHKhkoO+nuhVmWTL32Q65sqk0ApMlHdSshUk410hQ2DmPF0SkFdQXW6LVYULuF1bgtvbdU8zy5IKGqDAQh4hoRaAsrr0rSiZByxqmA6yBF0cMspZCMi62Aq0VgKCTOVAfqmsqVeLqUQzK01ZRWCVII4rJhR6ygLKyrVIDMrbVhEagMFUtFZQGgrVBRARRRUgNKKgogLVgqlEBbStPdKyFaAgTGHS7V0fD6clQ3RKI8K6zhlTdfDlBxNDhVLRZoUpJkCyHh6a6dHCyFE\" alt=\"kajal\" style=\"height: 120px;width: 100px\"/>\n<p></p>\n<img src=\"https://vinusimages.co/wp-content/uploads/2018/10/615A9585.jpglast.jpgwebsite.jpg\" alt=\"kajal\" style=\"height: auto;width: auto\"/>\n<p></p>\n",
+      "id": 3
+    },
+    {
+      "contentHTML": "<p>PPPP</p>\n",
+      "id": 4
+    },
+    {
+      "contentHTML": "<p>KKKK</p>\n",
+      "id": 5
+    },
+    {
+      "contentHTML": "<h3><span style=\"font-family: Impact;\"><em>Hello World</em></span></h3>\n",
+      "id": 6
+    }
+  ],
+  "image": [
+    {
+      "status": "ok",
+      "statusCode": 200,
+      "data": "Added Successfully",
+      "submitData": []
+    }
+  ],
   "users": [
     {
       "id": 1,
       "name": "kajal Patel",
       "email": "kajlfultariya@gmail.com",
       "pwd": "kajal1109",
-      "mno": 9687606592,
+      "mno": "968775332",
       "qur": "MCA",
       "addr": "Mundra"
     },

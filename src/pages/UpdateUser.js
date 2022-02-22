@@ -43,13 +43,13 @@ const UpdateUser = () => {
                 //add Record
                 dispatch(addUserStart(records));
                 toast.success("User Added Successfully");
-                setTimeout(() => history.push("/"), 500);
+                setTimeout(() => history.push("/Home"), 500);
             }
             else {   //edit record
                 dispatch(editUserStart({ id, records }));
                 setEditMode(false);
                 toast.success("Edited User Successfully");
-                setTimeout(() => history.push("/"), 500);
+                setTimeout(() => history.push("/Home"), 500);
             }
         }
     }

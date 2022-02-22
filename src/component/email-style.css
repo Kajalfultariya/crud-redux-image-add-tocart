@@ -1,0 +1,53 @@
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: auto;
+    color: gray;
+    box-shadow: 5px 5px 5px orange;
+    margin-top: 15px;
+  }
+  .email > .item {
+    margin-right: 10px;
+  }
+  .fromto {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  .address > .label {
+    font-weight: bold;
+  }
+  .subject > .label {
+    font-weight: bold;
+  }
+  .address > .sender {
+    font-size: 15px;
+  }
+  .address > .reciever {
+    font-size: 15px;
+  }
+  .address {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .email-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    flex: 1;
+  }
+  .date {
+    align-self: flex-start;
+    color: green;
+  }
+  .content {
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  

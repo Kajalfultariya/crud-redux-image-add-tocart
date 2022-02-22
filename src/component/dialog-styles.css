@@ -1,0 +1,32 @@
+.dialog {
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+    border: 1px solid rgb(74, 179, 96);
+    border-radius: 5px;
+  }
+  .footer {
+    align-self: flex-end;
+    margin: 10px;
+  }
+  
+  .content {
+    margin: 10px;
+    font-size: 11px;
+  }
+  
+  .title {
+    margin: 10px;
+    font-size: 20px;
+    align-self: flex-start;
+    color: black;
+  }
+  
+  .divide {
+    width: 100%;
+    padding: 0;
+    border-top: 1px dashed orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  

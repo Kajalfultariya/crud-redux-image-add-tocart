@@ -10,6 +10,7 @@ import { NavLink } from "react-router-dom";
 import { useHistory } from "react-router";
 import { toast } from "react-toastify";
 import { MDBSpinner } from "mdb-react-ui-kit";
+import "../styles.css"
 
 const Home = () => {
 
@@ -18,10 +19,10 @@ const Home = () => {
     const { users,loading,error } = useSelector((state) => state.data);
     
     
-    useEffect(() => {
+   
+     useEffect(() => {
         dispatch(loadUsersStart())
     },[]);
-    
     useEffect(() => error && toast.error(error), [error]);
 
     if (loading){
@@ -43,7 +44,7 @@ const Home = () => {
    
 
     return (
-        <div className="container" style={{ marginTop: "50px" }}>
+        <div>
           
             <Table style={{ "borderWidth": "2px", 'borderColor': "#aaaaaa", 'borderStyle': 'solid' }}>
                 <thead>

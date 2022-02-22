@@ -1,0 +1,65 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: blue;
+    width: 25em;
+    height: 15em;
+    border-radius: 10px;
+  }
+  
+  .person-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .card-numbers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+  }
+  .small-numbers {
+    margin-left: 15px;
+    font-size: 12px;
+  }
+  .splitter::before {
+    content: "  ";
+    white-space: pre;
+  }
+  
+  .holder-name {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 45px;
+  }
+  .bank-name {
+    font-weight: bold;
+    font-size: 30px;
+    align-self: flex-end;
+    margin: 0.8em;
+  }
+  
+  .card-numbers::after {
+    content: "\a\a";
+    white-space: pre;
+  }
+  
+  .exp-date {
+    display: flex;
+    align-self: center;
+  }
+  
+  .exp-date::after {
+    content: "\a\a";
+    white-space: pre;
+  }
+  
+  .valid-thru {
+    display: flex;
+    flex-direction: column;
+    font-size: 9px;
+    margin-right: 5px;
+  }
+  

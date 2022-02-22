@@ -1,0 +1,42 @@
+.outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid red;
+  background: #222222;
+  color: white;
+  width: auto;
+}
+.poster {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 10px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  border: 3px solid #03cef1;
+  padding: 20px;
+}
+
+.title {
+  display: flex;
+  align-self: center;
+  font-weight: bold;
+  color: #03cef1;
+  font-family: serif;
+}
+
+.first,
+.last {
+  font-size: 30px;
+}
+
+.text {
+  align-self: center;
+  font-weight: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

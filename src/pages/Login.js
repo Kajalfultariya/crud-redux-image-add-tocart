@@ -66,14 +66,10 @@ const Login = () => {
 
 
     return (
+       
         <div>
-            <Container style={{
-                border: "solid 1px black", borderRadius: "1px",
-                margin: "center", padding: "5px", marginTop: "20px", width: "400px"
-            }}>
-
-                <h1>Sign In</h1>
                 <Form onSubmit={handleForm}>
+                    <h1>Sign In</h1>
                     <FormGroup>
                         <Label for="email" >Email</Label>
                         <Input type="email" name="email" />
@@ -95,8 +91,8 @@ const Login = () => {
                     </nav>
 
                 </Form>
-                <h1></h1>
-            </Container>
+                
+              
 
         </div>
     )
