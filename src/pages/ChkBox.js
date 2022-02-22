@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { Button, Container, Form, Input, Label } from "reactstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { addChkStart } from "../redux/actions";
-
+import "../styles.css"
 
 const ChkBox = () => {
 
@@ -33,7 +33,7 @@ const ChkBox = () => {
     return (
         <div>
 
-            <Container style={{ width: "400px", alignContent: "left", padding: "40px" }}>
+          
                 <Form onSubmit={getFormData}>
 
                     <Label>Enter Your Name</Label>
@@ -61,7 +61,7 @@ const ChkBox = () => {
 
 
                 </Form>
-            </Container>
+         
         </div>
     )
 }

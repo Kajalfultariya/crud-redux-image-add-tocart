@@ -20,7 +20,7 @@ function About (){
     }
     return(
         <div style={{ margin: "auto", padding: "15px", maxWidth: "400px", alignContent: "center" }}>
-            <div className="heading">
+            <div>
               <h1> Multiple Images</h1> 
             </div>
             <div>

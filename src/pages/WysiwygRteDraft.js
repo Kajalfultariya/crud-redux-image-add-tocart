@@ -1,5 +1,5 @@
 import React, { useState ,useEffect} from 'react';
-import { convertToRaw } from "draft-js";
+import { convertToRaw, EditorState } from "draft-js";
 import { Editor } from "react-draft-wysiwyg";
 import { Button, Form } from 'reactstrap';
 import draftToHtml from "draftjs-to-html";
@@ -7,20 +7,20 @@ import { useDispatch } from "react-redux";
 import { addEdiStart } from "../redux/actions";
 import { useHistory } from 'react-router-dom';
 import { loadEdiStart } from "../redux/actions";
-
+import "../App.css"
 
 const EditorContainer = () => {
 
-    const [editorState, setEditorState] = useState('');
+    const [editorState, setEditorState] = useState(null);
     const history=useHistory();
-   
+  
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(loadEdiStart())
     },[]);
 
     const onEditorStateChange = (editorState) => {
-       
+        setEditorState(EditorState.createEmpty());
         setEditorState(editorState);
     };
 
@@ -63,8 +63,9 @@ const EditorContainer = () => {
 
   
     return (
-        <div style={{ margin: "auto", padding: "15px", maxWidth: "700px", alignContent: "center" }}>
-
+     
+      <div style={{ margin: "auto", padding: "15px", maxWidth: "500px", alignContent: "center" }}>
+           
             <div className='editor' >
                 <Form onSubmit={handleSubmit}>
                 <h1>Add Editor Data</h1>
