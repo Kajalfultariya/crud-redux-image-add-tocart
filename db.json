@@ -1,4 +1,30 @@
 {
+  "cart": [
+    {
+      "id": 1,
+      "name": "Banana",
+      "Qty": 2,
+      "price": 200
+    },
+    {
+      "id": 1,
+      "name": "Apple",
+      "Qty": 2,
+      "price": 250
+    },
+    {
+      "id": 1,
+      "name": "Carrot",
+      "Qty": 2,
+      "price": 2000
+    },
+    {
+      "id": 1,
+      "name": "Shop",
+      "Qty": 2,
+      "price": 540
+    }
+  ],
   "checkData": [
     {
       "id": 1,
@@ -73,7 +99,7 @@
   "users": [
     {
       "id": 1,
-      "name": "kajal Patel",
+      "name": "kajal J Patel",
       "email": "kajlfultariya@gmail.com",
       "pwd": "kajal1109",
       "mno": "968775332",
@@ -106,15 +132,6 @@
       "qur": "LLb",
       "addr": "Morbi",
       "id": 8
-    },
-    {
-      "name": "Angel",
-      "email": "angel@gmail.com",
-      "pwd": "kjuhyg",
-      "mno": "54879621",
-      "qur": "MMM",
-      "addr": "LLL",
-      "id": 10
     }
   ]
 }

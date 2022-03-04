@@ -28,6 +28,9 @@ const Header = () => {
                                     <NavLink className="nav-link" exact to="/Result">Result</NavLink>
                                 </li>
                                 <li className="nav-item">
+                                    <NavLink className="nav-link" exact to="/AddtoCart">AddtoCart</NavLink>
+                                </li>
+                                <li className="nav-item">
                                     <NavLink className="nav-link" exact to="/Home">All Records </NavLink>
                                 </li>
                                 <li className="nav-item">

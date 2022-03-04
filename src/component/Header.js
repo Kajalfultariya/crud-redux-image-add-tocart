@@ -38,6 +38,7 @@ import { Container } from "reactstrap";
 import GetData from "../pages/GetData";
 import ShowHide from "../pages/ShowHide";
 import Result from "../pages/Result";
+import AddtoCart from "../pages/AddtoCart"
 
 const Header = () => {
   return (
@@ -72,6 +73,7 @@ const Header = () => {
                 <Route exact path="/Welcome" component={Welcome} />
                 <Route exact path="/Logout" component={Logout} />
                 <Route exact path="/Home" component={Home} />
+                <Route exact path="/AddtoCart" component={AddtoCart} />
                 <Route exact path="/UpdateUser" component={UpdateUser} />
                 <Route exact path="/UpdateUser/:id" component={UpdateUser} />
                 <Route exact path="/About" component={About} />
